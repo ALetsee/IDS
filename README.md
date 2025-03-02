@@ -44,28 +44,28 @@ Para clonar el repositorio de `IDS.Bash`, abre una terminal y ejecuta el siguien
 # **IDS**
 
 Este código es un **script interactivo en Bash** diseñado para realizar varias funciones de encriptación y gestión de reglas con codificación. Está estructurado en un menú de opciones, donde el usuario puede elegir entre encriptar, desencriptar, crear una nueva regla o descifrar una regla ya creada. El código usa varias características de Bash, como arrays asociativos, bucles `while`, y comandos de encriptación como `base64`.
-
+![1](./imgs/1.png)
 ## Funciones Principales
 
 ### 1. **Encriptar**
    - Solicita al usuario un texto y una contraseña.
    - Encripta el texto utilizando `base64` y lo guarda junto con la contraseña en un archivo llamado `encriptados.dat`.
    - Muestra el texto encriptado al usuario.
-
+![2](./imgs/2.png)
 ### 2. **Desencriptar**
    - Solicita al usuario un texto encriptado y una contraseña.
    - Busca en el archivo `encriptados.dat` para verificar si la contraseña y el texto coinciden.
    - Si coinciden, se desencripta el texto utilizando `base64 --decode` y se muestra al usuario.
-
+![3](./imgs/3.png)
 ### 3. **Crear Regla**
    - Permite al usuario crear una regla asociando un lugar, dispositivo, departamento y entorno con un ID y contraseña.
    - El código utiliza arrays asociativos para almacenar los valores de lugares, dispositivos, departamentos y entornos.
    - Después de seleccionar cada opción, genera un código único que se guarda en un archivo llamado `reglas.dat` junto con la contraseña.
-
+![4](./imgs/4.png)
 ### 4. **Descifrar Regla**
    - Permite al usuario ingresar un código de regla y una contraseña para descifrar la información asociada a ese código.
    - Verifica si la contraseña corresponde al código y, si es correcto, muestra el lugar, dispositivo, departamento, entorno y el ID asociado a esa regla.
-
+![5](./imgs/5.png)
 ## Variables y Datos Utilizados
 
 ### Arrays Asociativos
