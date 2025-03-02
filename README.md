@@ -56,6 +56,7 @@ Este código es un **script interactivo en Bash** diseñado para realizar varias
    - Solicita al usuario un texto encriptado y una contraseña.
    - Busca en el archivo `encriptados.dat` para verificar si la contraseña y el texto coinciden.
    - Si coinciden, se desencripta el texto utilizando `base64 --decode` y se muestra al usuario.
+     
 ![3](./imgs/3.png)
 ### 3. **Crear Regla**
    - Permite al usuario crear una regla asociando un lugar, dispositivo, departamento y entorno con un ID y contraseña.
