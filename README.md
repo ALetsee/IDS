@@ -62,10 +62,14 @@ Este código es un **script interactivo en Bash** diseñado para realizar varias
    - Permite al usuario crear una regla asociando un lugar, dispositivo, departamento y entorno con un ID y contraseña.
    - El código utiliza arrays asociativos para almacenar los valores de lugares, dispositivos, departamentos y entornos.
    - Después de seleccionar cada opción, genera un código único que se guarda en un archivo llamado `reglas.dat` junto con la contraseña.
+
+
 ![4](./imgs/4.png)
 ### 4. **Descifrar Regla**
    - Permite al usuario ingresar un código de regla y una contraseña para descifrar la información asociada a ese código.
    - Verifica si la contraseña corresponde al código y, si es correcto, muestra el lugar, dispositivo, departamento, entorno y el ID asociado a esa regla.
+
+     
 ![5](./imgs/5.png)
 ## Variables y Datos Utilizados
 
